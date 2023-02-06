@@ -12,3 +12,7 @@
 --footercolor: #23272A;
 --headercolor: #255EE9;
 }
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
