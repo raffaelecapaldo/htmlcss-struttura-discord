@@ -20,6 +20,8 @@ header
 
 }
 
+main {}
+
 /* Color styles */
 :root {
 --primarycolor: #FFFFFF;
@@ -45,7 +47,7 @@ header
     color:var(--primarycolor)
 }
 
-.headerstyle a {
+.headerstyle a:not(.loginheader) {
     padding-left:3rem;
 }
 
@@ -99,4 +101,13 @@ header
 .browserheader {
     background-color: var(--footercolor);
     color:var(--primarycolor)
+}
+
+.loginheader {
+    background-color: var(--primarycolor);
+    color:var(--footercolor);
+    text-align:center;
+    display:inline-block;
+    padding:0.8rem;
+    font-size:0.9rem;
 }
