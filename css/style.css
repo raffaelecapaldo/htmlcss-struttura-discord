@@ -3,3 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* Color styles */
+:root {
+--primarycolor: #FFFFFF;
+--bg-secondarycolor: #D9D9D9;
+--brandcolor: #7289DA;
+--footercolor: #23272A;
+--headercolor: #255EE9;
+}
