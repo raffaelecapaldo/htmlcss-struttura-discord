@@ -79,8 +79,8 @@ header
     text-align:center;
     padding-top:5rem;
     color:var(--primarycolor);
-    height: 600px;
     flex-wrap: wrap;
+    padding-bottom:16rem;
 }
 
 .buttonstyle {
