@@ -50,8 +50,9 @@ header
 }
 
 .header-content {
-    width: 40%;
+    max-width: 40%;
     margin:0 auto;
+    
 }
 
 .header-content h1 {
@@ -60,9 +61,16 @@ header
 
 .header-content p {
     padding-top:1.5rem;
-    padding-bottom:1rem;
+    padding-bottom:1.0rem;
     line-height: 1.8rem;
     font-size:18px;
+
+}
+
+/* added to not break padding when resizing page */
+.header-content a {
+    display:inline-block;
+    margin-bottom:1.1rem;
 }
 
 .jumbotron {
@@ -71,5 +79,24 @@ header
     text-align:center;
     padding-top:5rem;
     color:var(--primarycolor);
-    height: 700px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.buttonstyle {
+    padding:1.1em;
+    border-radius:2rem;
+    margin-left:1.5rem;
+    font-size:1.1em;
+    font-weight: 500;
+}
+
+.macheader {
+    background-color: var(--primarycolor);
+    color:var(--footercolor)
+}
+
+.browserheader {
+    background-color: var(--footercolor);
+    color:var(--primarycolor)
 }
