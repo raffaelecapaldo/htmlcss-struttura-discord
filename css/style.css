@@ -15,27 +15,40 @@ li {
 
 header 
 {
-    background-color: #255EE9;
+    background-color: var(--headercolor);
     min-width: 1030px;
+    margin-bottom:8rem;
 
 }
 
-main {}
+
 
 /* Color styles */
 :root {
 --primarycolor: #FFFFFF;
---bg-secondarycolor: #D9D9D9;
+--bg-secondarycolor: #f6f6f6;
 --brandcolor: #7289DA;
 --footercolor: #23272A;
 --headercolor: #255EE9;
 }
 
-.d-flex {
+/* FLEX RULES */
+.dh-flex {
     display:flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items:flex-start;
+    margin-bottom:10rem;
+}
+
+.dm-flex {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.reverse{
+    flex-flow:row-reverse nowrap;
 }
 
 
@@ -57,10 +70,12 @@ main {}
     
 }
 
+/* MAIN HEADER TITLE */
 .header-content h1 {
     font-size:2.8rem;
 }
 
+ /* MAIN HEADER CONTENT */
 .header-content p {
     padding-top:1.5rem;
     padding-bottom:1.0rem;
@@ -93,6 +108,7 @@ main {}
     font-weight: 500;
 }
 
+/* OTHER STYLE OF BUTTONS */
 .macheader {
     background-color: var(--primarycolor);
     color:var(--footercolor)
@@ -110,4 +126,23 @@ main {}
     display:inline-block;
     padding:0.8rem;
     font-size:0.9rem;
+}
+
+/* MAIN SECTION */
+.textitem {
+    max-width: 20%;
+}
+
+.textitem h2 {
+    font-size:2.8rem;
+    padding-bottom: 1.1rem;
+    padding-top:1.3rem;
+}
+
+.imgitem {
+    padding-right:1.5rem;
+}
+
+.even {
+    background-color: var(--bg-secondarycolor);
 }
