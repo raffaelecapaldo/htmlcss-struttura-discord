@@ -36,7 +36,7 @@ header
 .dh-flex {
     display:flex;
     flex-flow: row nowrap;
-    justify-content:center;
+    justify-content:space-between;
     align-items:flex-start;
     margin-bottom:10rem;
 }
@@ -44,7 +44,8 @@ header
 .dm-flex {
     display:flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items:flex-start;
 }
 
 .reverse{
