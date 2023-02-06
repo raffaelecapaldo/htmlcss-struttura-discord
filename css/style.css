@@ -16,6 +16,8 @@ li {
 header 
 {
     background-color: #255EE9;
+    min-width: 1030px;
+
 }
 
 /* Color styles */
@@ -38,7 +40,8 @@ header
 .headerstyle {
     width: 80%;
     margin: 0 auto;
-    padding-top:20px;
+    padding-top:1.3rem;
+    padding-bottom:3rem;
     color:var(--primarycolor)
 }
 
@@ -46,11 +49,27 @@ header
     padding-left:3rem;
 }
 
+.header-content {
+    width: 40%;
+    margin:0 auto;
+}
+
+.header-content h1 {
+    font-size:2.8rem;
+}
+
+.header-content p {
+    padding-top:1.5rem;
+    padding-bottom:1rem;
+    line-height: 1.8rem;
+    font-size:18px;
+}
+
 .jumbotron {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     text-align:center;
     padding-top:5rem;
-    color:var(--primarycolor)
+    color:var(--primarycolor);
+    height: 700px;
 }
-
