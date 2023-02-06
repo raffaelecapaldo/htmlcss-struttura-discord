@@ -1,7 +1,21 @@
+/* GENERAL AND RESET */
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li {
+    list-style:none;
+}
+
+header 
+{
+    background-color: #255EE9;
 }
 
 /* Color styles */
@@ -13,14 +27,23 @@
 --headercolor: #255EE9;
 }
 
-body {
-    font-family: 'Noto Sans', sans-serif;
+.d-flex {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar {
+
+.headerstyle {
     width: 80%;
     margin: 0 auto;
     padding-top:20px;
+    color:var(--primarycolor)
+}
+
+.headerstyle a {
+    padding-left:3rem;
 }
 
 .jumbotron {
@@ -31,22 +54,3 @@ body {
     color:var(--primarycolor)
 }
 
-
-li {
-    list-style:none;
-}
-
-.d-flex {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar li {
-    padding-left:3rem;
-}
-
-
-header 
-{background-color: #255EE9;}
